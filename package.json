@@ -1,6 +1,7 @@
 {
   "name": "custom-action",
   "version": "5.0.0",
+  "main": "index.js",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@octokit/rest": "^19.0.13"
