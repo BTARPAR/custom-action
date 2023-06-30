@@ -1,0 +1,9 @@
+name: Version Increment Action
+description: Increment the package.json version based on diff
+runs:
+  using: 'node12'
+  main: 'index.js'
+inputs:
+  github-token:
+    description: 'GitHub token for pushing changes'
+    required: true
